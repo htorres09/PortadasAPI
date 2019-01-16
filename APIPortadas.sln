@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.106
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "APIPortadas", "APIPortadas.pyproj", "{79619DC8-5D01-4AD8-9884-924ED999C48A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79619DC8-5D01-4AD8-9884-924ED999C48A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79619DC8-5D01-4AD8-9884-924ED999C48A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79619DC8-5D01-4AD8-9884-924ED999C48A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79619DC8-5D01-4AD8-9884-924ED999C48A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F12C3ACF-438D-4A3C-B9EE-2B844759EA1E}
+	EndGlobalSection
+EndGlobal
