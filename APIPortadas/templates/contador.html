@@ -1,0 +1,93 @@
+﻿{% extends "layout.html" %}
+
+{% block content %}
+<h2>{{ title }}.</h2>
+<h3>{{ message }}</h3>
+<hr />
+
+<div class="row">
+    <div class="col-md-10">
+        <form action="{{ url_for('contador') }}" method="POST">
+            <div class="input-group">
+                <select class="input-group custom-select" id="listaArchivos" name="listaArchivos" aria-label="Select button addon">
+                    <option selected>- Seleccione un Archivo -</option>
+                    {% for nombreArchivo in listaArchivos %}
+                    <option value="{{ nombreArchivo }}">
+                        {{ nombreArchivo }}
+                    </option>
+                    {% endfor %}
+                </select>
+                <div class="input-group-append">
+                    <input type="submit" for="listaArchivos" class="input-group-text btn btn-outline-primary" value="Obtener Portadas">
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+{% if request.method == 'POST' %}
+
+<div class="row">
+    <div class="col-md-9"></div>
+    <div class="col-md-3">
+        <button href="#" class="btn btn-primary" onclick="descargarFaltantes()">Descargar Faltantes</button>
+    </div>
+</div>
+{% endif %}
+<hr />
+
+{% if request.method == 'POST' %}
+<div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+        <table class="table" id="tblDescargas">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">ISBN</th>
+                    <th scope="col">Clasificacion</th>
+                    <th scope="col">Estatus</th>
+                    <th scope="col"></th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for registro in listaUrls %}
+                <tr>
+                    <th>{{ registro.isbn }}</th>
+                    <th>{{ registro.clasificacion }}</th>
+                    <th>
+                        {% if registro.status == '0' %}
+                        <h6><span class="badge badge-secondary">Sin Descargar</span></h6>
+                        {% else %}
+                        <h6><span class="badge badge-success">Descargada</span></h6>
+                        {% endif %}
+                    </th>
+                    <th>
+                        {% if registro.status == '0' %}
+                        <a name="enlace" href="/descarga/{{ archivoSeleccionado }}/{{ registro.clasificacion }}/{{ registro.isbn }}/{{ registro.parametros }}" class="col-md-12 btn btn-primary" >Descargar</a>
+                        {% else %}
+                        <a name="portada" href="/portada/{{ registro.clasificacion }}/{{ registro.isbn }}" class="col-md-12 btn btn-success">Portada</a>
+                        {% endif %}
+                    </th>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    <div class="col-md-1"></div>
+</div>
+{% endif %}
+{% endblock %}
+
+{% block scripts %}
+<script type="text/javascript">
+    function descargarFaltantes() {
+        var lista = document.getElementsByName('enlace');
+        lista.forEach((elemento) => {
+            $.ajax({
+                method: "POST",
+                url: elemento.attributes[1].nodeValue
+            }).done((data) => { console.log(data) });
+        });
+    }
+</script>
+{% endblock %}

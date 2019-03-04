@@ -1,0 +1,81 @@
+﻿{% extends "layout.html" %}
+
+{% block content %}
+
+<h2>{{ title }}.</h2>
+<h3>{{ message }}</h3>
+<hr />
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="card-body d-flex flex-column align-items-start">
+            <strong class="d-inline-block mb-2 text-success">Upload</strong>
+            <h3 class="mb-0">
+                <span class="text-dark">Subir Portada</span>
+            </h3>
+            <hr />
+            <form id="upload-file" method="POST" enctype="multipart/form-data">
+                <fieldset>
+                    <input name="file" type="file">
+                    <label for="file">Seleccione un archivo</label>
+                </fieldset>
+                <fieldset>
+                    <input type="submit" class="input-group-text" id="inputAddon" value="Upload">
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+            <div class="card-body d-flex flex-column align-items-start">
+                <strong class="d-inline-block mb-2 text-success">Portada</strong>
+                <h3 class="mb-0">
+                    <span class="text-dark">{{ nombrePortada }}</span>
+                </h3>
+                <hr />
+                <p class="card-text mb-auto">Clasificacion: {{ clase }}</p>
+                <p class="card-text mb-auto">ISBN: {{ isbn }}</p>
+            </div>
+            {% if imgurl %}
+                <img src="{{ imgurl }}" class="bd-placeholder-img card-img-right flex-auto d-none d-lg-block" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"/>
+            {% else %}
+            <svg class="bd-placeholder-img card-img-right flex-auto d-none d-lg-block" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+                <title>Placeholder</title>
+                <rect fill="#55595c" width="100%" height="100%"></rect>
+                <text fill="#eceeef" dy=".3em" x="50%" y="50%">Thumbnail</text>
+            </svg>
+            {% endif %}
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <blockquote class="col-md-4">
+        <p>Formato:</p>
+        <hr />
+        CCC_NNNNNNNNNNNNN.ext
+        <ul>
+            Es necesario el uso del guión bajo '_' para que el archivo se aceptado.
+        </ul>
+    </blockquote>
+    <blockquote class="col-md-4">
+        <p>Donde:</p>
+        <hr />
+        <ul>
+            <li>CCC - Corresponde hasta los primeros 3 caracteres alfabeticos de su clasificación.</li>
+            <li>NNNNNNNNNNNNN - Corresponde a los 13 caracteres del ISBN del libro. Si no cuenta con ISBN usar el Id del documento en CODICE.</li>
+            <li>ext - Corresponde a los ultimos 3 o 4 caracteres de la extensión del archivo.</li>
+        </ul>
+    </blockquote>
+    <blockquote class="col-md-4">
+        <p>Ejemplos:</p>
+        <hr />
+        <ul>
+            <li>QHC_9783161484100.ext</li>
+            <li>QA_1110001571.ext</li>
+        </ul>
+    </blockquote>
+</div>
+
+{% endblock %}

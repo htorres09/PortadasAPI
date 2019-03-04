@@ -1,0 +1,46 @@
+9789681683870 FCE, rústica,PQ7297,https://books.google.com/books/content?id=h33Va-zu9VIC&printsec=frontcover&img=1&zoom=1,0
+9681677617 v.4, empastado,F1210,https://books.google.com/books/content?id=7ul5AAAAMAAJ&printsec=frontcover&img=1&zoom=1,0
+9681681495 v.5, pte.1,F1210,https://books.google.com/books/content?id=L4Tad33ppTcC&printsec=frontcover&img=1&zoom=1,0
+9681681517 v.5, pte.2,F1210,https://books.google.com/books/content?id=bte75_gDnxAC&printsec=frontcover&img=1&zoom=1,0
+3777270067 v.3, t.1,PT1755,https://books.google.com/books/content?id=miIMAQAAIAAJ&printsec=frontcover&img=1&zoom=1,0
+3777289302 v.4, t.2,PT1755,https://books.google.com/books/content?id=iMlbAAAAMAAJ&printsec=frontcover&img=1&zoom=1,0
+8481095494 t. 1, Galaxia Gutenberg,DP203,https://books.google.com/books/content?id=qzCYPwAACAAJ&printsec=frontcover&img=1&zoom=1,0
+8481095508 t. 2, Galaxia Gutenberg,DP203,https://books.google.com/books/content?id=jseiPwAACAAJ&printsec=frontcover&img=1&zoom=1,0
+8497400534 v. 1, t. 1,PQ6421,https://books.google.com/books/content?id=OisoAQAAIAAJ&printsec=frontcover&img=1&zoom=1,0
+8497400542 v. 1, t. 2,PQ6421,https://books.google.com/books/content?id=sisoAQAAIAAJ&printsec=frontcover&img=1&zoom=1,0
+9788490228838 edición española, versión electrónica,RJ48,https://books.google.com/books/content?id=jNDECQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl,0
+9789681683870 (FCE, rústica),PQ7297,https://books.google.com/books/content?id=h33Va-zu9VIC&printsec=frontcover&img=1&zoom=1,0
+9681677617 (v.4, empastado),F1210,https://books.google.com/books/content?id=7ul5AAAAMAAJ&printsec=frontcover&img=1&zoom=1,0
+9681681495 (v.5, pte.1),F1210,https://books.google.com/books/content?id=L4Tad33ppTcC&printsec=frontcover&img=1&zoom=1,0
+9681681517 (v.5, pte.2),F1210,https://books.google.com/books/content?id=bte75_gDnxAC&printsec=frontcover&img=1&zoom=1,0
+3777270067 (v.3, t.1),PT1755,https://books.google.com/books/content?id=miIMAQAAIAAJ&printsec=frontcover&img=1&zoom=1,0
+3777289302 (v.4, t.2),PT1755,https://books.google.com/books/content?id=iMlbAAAAMAAJ&printsec=frontcover&img=1&zoom=1,0
+8481095494 (t. 1, Galaxia Gutenberg),DP203,https://books.google.com/books/content?id=qzCYPwAACAAJ&printsec=frontcover&img=1&zoom=1,0
+8481095508 (t. 2, Galaxia Gutenberg),DP203,https://books.google.com/books/content?id=jseiPwAACAAJ&printsec=frontcover&img=1&zoom=1,0
+8497400534 (v. 1, t. 1),PQ6421,https://books.google.com/books/content?id=OisoAQAAIAAJ&printsec=frontcover&img=1&zoom=1,0
+8497400542 (v. 1, t. 2),PQ6421,https://books.google.com/books/content?id=sisoAQAAIAAJ&printsec=frontcover&img=1&zoom=1,0
+9788490228838 (edición española, versión electrónica),RJ48,https://books.google.com/books/content?id=jNDECQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl,0
+9789681683870 (FCE, rústica),PQ7297,https://books.google.com/books/content?id=h33Va-zu9VIC&printsec=frontcover&img=1&zoom=1,0
+9681677617 (v.4, empastado),F1210,https://books.google.com/books/content?id=7ul5AAAAMAAJ&printsec=frontcover&img=1&zoom=1,0
+9681681495 (v.5, pte.1),F1210,https://books.google.com/books/content?id=L4Tad33ppTcC&printsec=frontcover&img=1&zoom=1,0
+9681681517 (v.5, pte.2),F1210,https://books.google.com/books/content?id=bte75_gDnxAC&printsec=frontcover&img=1&zoom=1,0
+3777270067 (v.3, t.1),PT1755,https://books.google.com/books/content?id=miIMAQAAIAAJ&printsec=frontcover&img=1&zoom=1,0
+3777289302 (v.4, t.2),PT1755,https://books.google.com/books/content?id=iMlbAAAAMAAJ&printsec=frontcover&img=1&zoom=1,0
+8481095494 (t. 1, Galaxia Gutenberg),DP203,https://books.google.com/books/content?id=qzCYPwAACAAJ&printsec=frontcover&img=1&zoom=1,0
+8481095508 (t. 2, Galaxia Gutenberg),DP203,https://books.google.com/books/content?id=jseiPwAACAAJ&printsec=frontcover&img=1&zoom=1,0
+8497400534 (v. 1, t. 1),PQ6421,https://books.google.com/books/content?id=OisoAQAAIAAJ&printsec=frontcover&img=1&zoom=1,0
+8497400542 (v. 1, t. 2),PQ6421,https://books.google.com/books/content?id=sisoAQAAIAAJ&printsec=frontcover&img=1&zoom=1,0
+9788490228838 (edición española, versión electrónica),RJ48,https://books.google.com/books/content?id=jNDECQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl,0
+9789681683870 (FCE, rústica),PQ7297,https://books.google.com/books/content?id=h33Va-zu9VIC&printsec=frontcover&img=1&zoom=1,0
+9681677617 (v.4, empastado),F1210,https://books.google.com/books/content?id=7ul5AAAAMAAJ&printsec=frontcover&img=1&zoom=1,0
+9681681495 (v.5, pte.1),F1210,https://books.google.com/books/content?id=L4Tad33ppTcC&printsec=frontcover&img=1&zoom=1,0
+9681681517 (v.5, pte.2),F1210,https://books.google.com/books/content?id=bte75_gDnxAC&printsec=frontcover&img=1&zoom=1,0
+3777270067 (v.3, t.1),PT1755,https://books.google.com/books/content?id=miIMAQAAIAAJ&printsec=frontcover&img=1&zoom=1,0
+3777289302 (v.4, t.2),PT1755,https://books.google.com/books/content?id=iMlbAAAAMAAJ&printsec=frontcover&img=1&zoom=1,0
+8481095494 (t. 1, Galaxia Gutenberg),DP203,https://books.google.com/books/content?id=qzCYPwAACAAJ&printsec=frontcover&img=1&zoom=1,0
+8481095508 (t. 2, Galaxia Gutenberg),DP203,https://books.google.com/books/content?id=jseiPwAACAAJ&printsec=frontcover&img=1&zoom=1,0
+8497400534 (v. 1, t. 1),PQ6421,https://books.google.com/books/content?id=OisoAQAAIAAJ&printsec=frontcover&img=1&zoom=1,0
+8497400542 (v. 1, t. 2),PQ6421,https://books.google.com/books/content?id=sisoAQAAIAAJ&printsec=frontcover&img=1&zoom=1,0
+9788490228838 (edición española, versión electrónica),RJ48,https://books.google.com/books/content?id=jNDECQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl,0
+9786077588238 ,PC4025,https://books.google.com/books/content?id=BUY2AQAAIAAJ&printsec=front
+9500409461  ,PQ7797,https://books.google.com/books/content?id=hdxW9WJYOMoC&printsec=frontcover&img=1&
